@@ -1,0 +1,139 @@
+/*Camilla Piskonen, 0451801
+www-sovellukset*/
+/*background source: https://static.zerochan.net/Natsume.Takashi.full.2106455.jpg*/
+
+body {
+    font-family: 'Nothing You Could Do', cursive;
+    font-size: 25px;
+    background: url(wallpaper.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+}
+
+
+h1 {
+    outline: 5px inset #456879;
+    outline-offset: 2px;
+    margin-left: 50px;
+    width: 30%;
+    max-width: 300px;
+    min-width: 200px;
+    text-align: center;
+    font-size: 30px;
+}
+
+
+#noteinput {
+    margin-left: 50px;
+    margin-top: 5px;
+}
+
+.redirect {
+    text-align: center;
+}
+
+.forms {
+    margin-left: 50px;
+}
+
+
+input[type=text], input[type=password] {
+    background-color: AntiqueWhite;
+    border:2px solid #456879;
+    padding: 2px 5px;
+    border-radius: 10px;
+    height: 25px;
+    width: 20%;
+    max-width: 300px;
+    min-width: 100px;
+}
+
+.button {
+    border: 2px solid #456879;
+    padding: 2px 5px;
+    margin: 2px;
+    border-radius:10px;
+    height: 35px;
+    background-color: lightgrey;
+}
+
+.buttons {
+    margin-left: 50px;
+    margin-bottom: 5px;
+}
+
+.button:hover {
+    background-color: darkgrey;
+    transition-duration: 0.4s;
+}
+
+.button:active {
+    margin-top: 1px;
+}
+
+.remove {
+    visibility: hidden;
+
+}
+
+.visible {
+    visibility: visible;
+
+}
+
+ul {
+   list-style: none;
+   height: 60%;
+   min-height: 304px;
+   max-height: 1080px;
+   width: 40%;
+   min-width: 304px;
+   max-width: 3500px;
+   display: flex;
+   flex-direction: column;
+   flex-wrap: wrap;
+
+}
+
+li {
+    background: url('bulletpoint.png') no-repeat left center;
+    padding: 8px 8px 8px 55px;
+    border: 2px solid #456879;
+    margin: 2px;
+    background-color: lightgrey;
+    border-radius:10px;
+    min-height: 40px;
+    max-height: 100px;
+    height: 30%;
+    min-width: 200px;
+    width: auto;
+    max-width: 350px;
+    word-wrap: break-word;
+    font-size: 25px;
+}
+
+.note {
+    margin: 15px 15px 0px 15px;
+    min-width: 150px;
+    width: auto;
+    max-width: 350px;
+}
+
+.under {
+    outline: 5px inset #456879;
+    outline-offset: 2px;
+    margin-bottom: 40px;
+    width: auto;
+    max-width: 350px;
+    min-width: 150px;
+    font-size: 20px;
+    padding: 5px;
+}
+
+.inside {
+   background: url('bulletpoint.gif') no-repeat left center;
+   background-color: darkgrey;
+   transition-duration: 0.4s;
+}
